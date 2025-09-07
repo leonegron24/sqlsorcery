@@ -1,6 +1,6 @@
 export const dev = window.location.origin.includes('localhost')
-export const baseURL = dev ? 'http://localhost:3000' : ''
+export const baseURL = dev ? 'https://localhost:7045' : ''
 export const useSockets = false
-export const domain = ''
-export const clientId = ''
-export const audience = ''
+export const domain = 'dev-cxvcv5un0avbw1ix.us.auth0.com'
+export const clientId = 'Wj3fnWeTZsH9Z4p5mDs1eYbsAGpGaNAP'
+export const audience = 'https://auth.speedwagonfoundation.com'
